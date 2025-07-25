@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
-import StudentProfile from './components/StudentProfile/StudentProfile';
+import StudentProfile from './components/StudenntProfiilewithAlerts/StudentProfile/StudentProfile';
+import Alerts from './components/StudenntProfiilewithAlerts/Alerts/Alerts'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         </aside>
         <section className="app-content">
           <StudentProfile />
+          <Alerts />
+
         </section>
       </main>
     </div>

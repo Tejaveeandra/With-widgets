@@ -1,7 +1,7 @@
 import React from 'react';
-import SearchBarWidget from '../../Widgets/Searchbarwidget/SearchbarWidget';
+import SearchBarWidget from '../../../Widgets/Searchbarwidget/Searchbar_Widget';
 import styles from './StudentProfile.module.css'; // Import as an object
-import backgroundImage from '../../Assets/background.png'; // Import the background image
+import backgroundImage from '../../../Assets/background.png'; // Import the background image
 
 const StudentProfile = () => {
   const backgroundUrl = `url(${backgroundImage})`;

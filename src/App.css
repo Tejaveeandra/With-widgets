@@ -37,15 +37,18 @@
 /* Student profile section styling */
 .app-content {
   width: 85%;
- padding-left: 10px;
- padding-right: 5px;
+  gap: 20px; /* Adjusted to 20px for reasonable spacing between components */
+  padding-left: 10px;
+  padding-right: 5px;
   background-color: #ecf0f1;
   height: 100%; /* Adjust based on header height */
   overflow-y: auto;
+  display: flex; /* Ensure flexbox is enabled for gap to work */
+  flex-direction: column; /* Stack components vertically */
 }
 
 /* Ensure sections don't overlap */
-aside, section {
+aside,
+section {
   box-sizing: border-box;
 }
-
